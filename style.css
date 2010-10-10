@@ -1,0 +1,21 @@
+html, body { height: 100%; }
+
+body { font-family: Helvetica Neue, Verdana, sans-serif; }
+
+canvas { display: block; position: absolute; }
+
+div.navigation { bottom: 0px; position: absolute; right: 40px; height: 30px; left: 0; right: 0; padding: 10px; text-align: right; background: #eae7eb; line-height:30px; }
+div.navigation p { float: left; padding-right: 5px;}
+div.navigation a.url { display: block; float: left; width: 300px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+div.navigation > input[type=text] { width: 500px; height: 25px; font-size: 1.2em; }
+div.navigation > div.left { position: absolute; left: 10px; font-size: 1.2em;}
+div.navigation > div.left > input[type=range] { position: relative; top: 3px; left: 10px;}
+
+button, .button {display: inline-block; text-decoration: none; padding: 0 10px 0 10px; height: 31px; font-size: 1.2em;  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2); box-shadow: 0 1px 2px rgba(0,0,0,.2); border: solid 1px #b7b7b7; background: #fff; background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed)); background: -moz-linear-gradient(top, #fff, #ededed); }
+button:hover, .button:hover {  background: #ededed; background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc)); background: -moz-linear-gradient(top, #fff, #dcdcdc); }
+button:active { color: #999; background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff)); background: -moz-linear-gradient(top, #ededed, #fff);  }
+button:visited, .button:visited { color: #000;}
+
+.twitter { position: absolute; right: 0; top:0; width: 200px; height: 200px; overflow: hidden; z-index: 10;}
+.twitter > div{background-color:#a00;overflow:hidden;position:absolute;right:-4em;top:4em;-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-moz-box-shadow:0 0 1em #888;-webkit-box-shadow:0 0 1em #888;}
+.twitter > div > a{border:1px solid #faa;color:#fff;display:block;font:bold 90% 'Helvetiva Neue',Helvetica,Arial,sans-serif;margin:0.05em 0 0.075em 0;padding:1em 5.5em;text-align:center;text-decoration:none; text-shadow:0 0 0.5em #444;}

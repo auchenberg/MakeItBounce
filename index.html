@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <title>Make it bounce</title>
+	    <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?3.1.1/build/cssreset/reset-min.css&3.1.1/build/cssfonts/fonts-min.css&3.1.1/build/cssgrids/grids-min.css">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	
+	<body>
+		<div class="twitter">
+		  <div><a href="http://twitter.com/auchenberg" rel="me">Follow me on Twitter</a></div>
+		</div>
+		
+		<canvas id="c" width="400" height="400"></canvas>
+		
+		<div class="navigation">
+			<div class="left">
+				<label for="slider">Resolution</label>
+				<input id="slider" type="range" min="1" max="20" step="2" value="10">
+			</div>
+			
+			<input type="text" value="http://cdn.physorg.com/newman/gfx/news/hires/2009/googlelogo.jpg" />
+			<button class="bounce">Make it bounce</button>
+		</div>
+	</body>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/pixelator.js"></script>
+</html>
